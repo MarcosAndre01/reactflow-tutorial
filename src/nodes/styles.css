@@ -1,0 +1,15 @@
+/* Apply this CSS to your box */
+.box {
+    width: 200px;                   /* Fixed width of the box */
+    background-color: #f0f0f0;     /* Background color */
+    border: 2px solid #000;         /* Border with a solid color */
+    padding: 10px;                  /* Space inside the box */
+    margin: 10px;                   /* Space outside the box */
+    box-sizing: border-box;         /* Include border and padding in the element's total width */
+    text-align: center;             /* Center text horizontally */
+    line-height: 1.2;               /* Adjust line-height to improve text fit */
+    font-size: 14px;                /* Set a readable font size */
+    word-wrap: break-word;          /* Break long words to prevent overflow */
+    display: inline-block;          /* Allow box to adjust height based on content */
+  }
+  
